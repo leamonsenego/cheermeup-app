@@ -6,3 +6,39 @@ body {
   font-family: Monospace, sans-serif;
   font-weight: lighter;
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.card-box {
+  max-width: 680px;
+  height: 510px;
+  box-shadow: 20px 18px 20px rgba(0, 0, 0, 0.2); 
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  margin: 80px auto;
+  padding: 1rem;
+  background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+
+.click-here {
+  font-family: Monospace, sans-serif;
+  background-color: rgb(247, 211, 248);
+  margin: 150px auto;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+footer{
+  text-align: center;
+}
